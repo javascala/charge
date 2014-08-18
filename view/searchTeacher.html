@@ -84,114 +84,172 @@
                 </div>
             </nav>
 
-
-            <div class="well">
-                <div class="input-group">
-                    <div class="input-group-btn search-panel">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                            <span id="search_concept">请选择</span> <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#contains">小学家教</a></li>
-                            <li><a href="#its_equal">初中家教</a></li>
-                            <li><a href="#greather_than">高中家教</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#all">其它</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-5">
-                        <input type="text" class="form-control input-md" name="x" placeholder="寻找你需要的老师" >
-                        <input type="hidden" name="search_param" value="all" id="search_param">
-                    </div>
+<div class="row">
+    <div class="col-sm-9">
+        <div class="well">
+            <div class="input-group">
+                <div class="input-group-btn search-panel">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        <span id="search_concept">请选择</span> <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#contains">小学家教</a></li>
+                        <li><a href="#its_equal">初中家教</a></li>
+                        <li><a href="#greather_than">高中家教</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#all">其它</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" class="form-control input-md" name="x" placeholder="寻找你需要的老师" >
+                    <input type="hidden" name="search_param" value="all" id="search_param">
+                </div>
                     <span class="input-group-btn navbar-left">
                          <button class="btn btn-default" type="button"><span class="glyphicon glyphicon-search"></span></button>
                     </span>
+            </div>
+            <hr>
+            <div class="text-left">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        按照学科
+                        <span class="glyphicon glyphicon-list-alt"></span>
+                    </button>
+                    <ul class="dropdown-menu pull-left">
+                        <li><a href="#">语文</a></li>
+                        <li><a href="#">数学</a></li>
+                        <li><a href="#">英语</a></li>
+                    </ul>
+
+
                 </div>
-                <hr>
-                <div class="text-left">
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                            按照学科
-                            <span class="glyphicon glyphicon-list-alt"></span>
-                        </button>
-                        <ul class="dropdown-menu pull-left">
-                            <li><a href="#">语文</a></li>
-                            <li><a href="#">数学</a></li>
-                            <li><a href="#">英语</a></li>
-                        </ul>
 
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        按照大学
+                        <span class="glyphicon glyphicon-home"></span>
+                    </button>
+                    <ul class="dropdown-menu pull-left">
+                        <li><a href="#">南京大学</a></li>
+                        <li><a href="#">南京理工大学</a></li>
+                        <li><a href="#">南京工程学院</a></li>
+                    </ul>
+                </div>
 
-                    </div>
-
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                            按照大学
-                            <span class="glyphicon glyphicon-home"></span>
-                        </button>
-                        <ul class="dropdown-menu pull-left">
-                            <li><a href="#">南京大学</a></li>
-                            <li><a href="#">南京理工大学</a></li>
-                            <li><a href="#">南京工程学院</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="input-group-btn">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                            按照身份
-                            <span class="glyphicon glyphicon-user"></span>
-                        </button>
-                        <ul class="dropdown-menu pull-left">
-                            <li><a href="#">大学生家教</a></li>
-                            <li><a href="#">在职教师</a></li>
-                            <li><a href="#">专职家教</a></li>
-                            <li><a href="#">辅导机构</a></li>
-                        </ul>
-                    </div>
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        按照身份
+                        <span class="glyphicon glyphicon-user"></span>
+                    </button>
+                    <ul class="dropdown-menu pull-left">
+                        <li><a href="#">大学生家教</a></li>
+                        <li><a href="#">在职教师</a></li>
+                        <li><a href="#">专职家教</a></li>
+                        <li><a href="#">辅导机构</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="container well">
-                <div class="col-md-10 blogShort">
+        <div class="well">
+            <div class="container">
+                <div class="col-sm-8 blogShort">
                     <h1>teacher1</h1>
-                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/guinnes-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/guinnes-150x150.jpg" alt="post img"
+                         class="pull-left img-responsive thumb margin10 img-thumbnail">
 
-                    <em>This snippet use <a href="http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation" target="_blank">Sexy Sidebar Navigation</a></em>
+                    <em>This snippet use <a href="http://bootsnipp.com/snippets/featured/sexy-sidebar-navigation"
+                                            target="_blank">Sexy Sidebar Navigation</a></em>
                     <article><p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of
                         Lorem Ipsum.
                     </p></article>
-                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ MORE</a>
+                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ
+                        MORE</a>
                 </div>
-                <div class="col-md-10 blogShort">
+                <div class="col-sm-8 blogShort">
                     <h1>teacher2</h1>
-                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_4073-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_4073-150x150.jpg" alt="post img"
+                         class="pull-left img-responsive thumb margin10 img-thumbnail">
                     <article><p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of
                         Lorem Ipsum.
                     </p></article>
-                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ MORE</a>
+                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ
+                        MORE</a>
                 </div>
-                <div class="col-md-10 blogShort">
+                <div class="col-sm-8 blogShort">
                     <h1>teacher3</h1>
-                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_1681-150x150.jpg" alt="post img" class="pull-left img-responsive thumb margin10 img-thumbnail">
+                    <img src="http://www.kaczmarek-photo.com/wp-content/uploads/2012/06/DSC_1681-150x150.jpg" alt="post img"
+                         class="pull-left img-responsive thumb margin10 img-thumbnail">
                     <article><p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text
-                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only
-                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release
-                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text
+                        ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
+                        specimen book. It has survived not only
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was
+                        popularised in the 1960s with the release
+                        of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+                        like Aldus PageMaker including versions of
                         Lorem Ipsum.
                     </p></article>
-                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ MORE</a>
+                    <a class="btn btn-blog pull-right marginBottom10" href="http://bootsnipp.com/user/snippets/2RoQ">READ
+                        MORE</a>
                 </div>
             </div>
 
-            <ul class="pagination">
+        </div>
+
+    </div>
+    <div class="col-sm-2 col-sm-offset-1 blog-sidebar">
+        <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet
+                fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+        </div>
+        <div class="sidebar-module">
+            <h4>Archives</h4>
+            <ol class="list-unstyled">
+                <li><a href="#">March 2014</a></li>
+                <li><a href="#">February 2014</a></li>
+                <li><a href="#">January 2014</a></li>
+                <li><a href="#">December 2013</a></li>
+                <li><a href="#">November 2013</a></li>
+                <li><a href="#">October 2013</a></li>
+                <li><a href="#">September 2013</a></li>
+                <li><a href="#">August 2013</a></li>
+                <li><a href="#">July 2013</a></li>
+                <li><a href="#">June 2013</a></li>
+                <li><a href="#">May 2013</a></li>
+                <li><a href="#">April 2013</a></li>
+            </ol>
+        </div>
+        <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<ul class="pagination">
                 <li>
                     <a href="#">Prev</a>
                 </li>
@@ -214,7 +272,6 @@
                     <a href="#">Next</a>
                 </li>
             </ul>
-
 
             <div class="modal fade" id="modal-container-10857" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
                 <div class="modal-dialog">
